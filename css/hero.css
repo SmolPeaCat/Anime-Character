@@ -1,0 +1,40 @@
+header{ 
+	
+    background-color: rgb(46, 136, 214);
+
+}
+	
+
+h1{
+	font-size: 90px;
+	color: rgb(228, 18, 18);
+}
+
+header img{
+	border-radius: 150px;
+
+}
+/*<header>
+			<img src="img/profile.jpg"  width="100%">
+			<h1>Violet Evergarden</h1>
+		</header>*/
+body {
+    background-color: rgb(191, 214, 255);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.panel {
+    background: rgb(255, 148, 148);
+    height: 10rem;
+    width: 30%;
+}
+.muo-text {
+    font-size: 3em;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+}
