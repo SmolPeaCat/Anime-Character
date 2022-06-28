@@ -1,18 +1,77 @@
+html, body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
 header{ 
-	
+    
     background-color: rgb(46, 136, 214);
+    padding: 40px;
+    text-align: center;
 
 }
 	
-
 h1{
 	font-size: 90px;
-	color: rgb(228, 18, 18);
+	color: white
 }
 
 header img{
 	border-radius: 150px;
+    width: 750px;
+    border: 10px solid #9fdf9f; 
+}
 
+p{
+    font-size: 25px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+p.caption{
+    font-size: 30px;
+    color: rgb(9, 119, 119);
+    font-style: italic;
+}
+
+ol{
+    font-size: 25px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+}
+
+a{
+    color: rgb(10, 138, 53);
+    text-decoration: none
+    ;
+}
+
+
+footer{
+    padding: 40px 20px;
+    background-color:rgb(87, 114, 138);
+
+}
+
+footer ul{
+    text-align: center ;
+}
+
+footer ul audio li{
+    display: inline-block;
+    margin: 0 5px;
 }
 /*<header>
 			<img src="img/profile.jpg"  width="100%">
